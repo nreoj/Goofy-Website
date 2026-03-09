@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <title>Test Website</title>
+</head>
+<body>
+
+    <div class="title">
+    <h1>My Website</h1>
+    <p>Pls come back for future updates :)</p>
+    <p>Last updated 9/3/26</p>
+    </div>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <img src="C:\Users\newuser\Documents\Web Dev\Test website\tokage.jpg" id="tokage">
+            <p>I am a random guy.</p>
+            <p>Hobbies: Drawing🖌️, gaming🔫, tennis🎾</p>
+            <p>Likes: Eating good and cheap food, people who are nice😁, fat animals (fatties), being alone when I feel like it</p>
+            <p>Dislikes: Seafood other than fish, slimy things, stepping on snails when running, knee pain, feeling like vomiting 3 minutes into a run because I ate food/drank water 2 hours ago, being too alone, being sad, people who are annoying🤡, being broke, being absolutely cooked</p>
+            <p>What I do: I am unemployed rn so most of the time I just scroll ig reels, eat, sleep and wonder why my life isn't going anywhere. (Mostly a joke, if ur an employer pls employ me)</p>
+        </section>
+        
+        <section>
+            <h2>About YOU</h2>
+            <form action="https://formspree.io/f/mojkajgz" method="POST">
+                <label for="name">
+                    Name: <input class='you' id='name' name='name' type="text" required>
+                </label>
+                <label for="input">
+                    Say anything/Feedback: <textarea class='you' id='input' name='Stuff to say' required></textarea>
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <section>
+        <h2>Contact Me/Socials</h2>
+        <a href="mailto:joernho0402@gmail.com">Email</a>
+        <a href="https://www.instagram.com/nreojoh?igsh=NjJqMDE3bXZsdDdl&utm_source=qr">Instagram(Even though you came from there)</a>
+    </section>
+
+    <section>
+        <h2>Random Stuff</h2>
+
+        <h3>How well do you know me? (Easy)</h3>
+        <button type="submit" id="revealquiz">Press this to start the quiz</button>
+
+        <div class="easy">
+        <p>1. What is my name?</p>
+        <input type="radio" name='q1.1' value="Joern"> Joern
+        <input type="radio" name='q1.1' value="Joen"> Joen
+        <input type="radio" name="q1.1" value="Nreoj"> Nreoj
+        <input type="radio" name="q1.1" value="Daniel Singh"> Daniel Singh
+
+        <p>2. What was the best game at its peak?</p>
+        <input type="radio" name='q1.2' value="Clash Royale"> Clash Royale
+        <input type="radio" name='q1.2' value="Critical Ops"> Critical Ops
+        <input type="radio" name='q1.2' value="Genshin"> Genshin
+        <input type="radio" name='q1.2' value="Battle Cats"> Battle Cats
+
+        <p>3. Why did I make this website?</p>
+        <input type="radio" name='q1.3' value="I am a very hardworking and diligent person"> I am a very hardworking and diligent person
+        <input type="radio" name='q1.3' value="I am a believer in lifelong learning"> I am a believer in lifelong learning. Continuously gaining new skills is essential to being relevant in this job market to me.
+        <input type="radio" name='q1.3' value="I am unemployed"> I am unemployed and have no life so I am very free
+
+        <button type="submit" id="submitpart1">Submit</button>
+        <div id="answer1"> </div>
+        <p id="chances1"></p>
+        </div>
+
+
+
+
+        <div class="mediumtitle">
+        <h3>How well do you know me? (Medium)</h3>
+        <p>The previous quiz has to be completed before this can be revealed</p>
+        </div>
+        <div class="mediumquestions">
+        <p>1. The easiest and most rewarding vocation in the SAF for NSFs is:</p>
+        <input type="radio" name='q2.1' value="Air Force"> Air Force
+        <input type="radio" name='q2.1' value="Medic"> Medic
+        <input type="radio" name="q2.1" value="Air Force Medic"> Air Force Medic
+        <input type="radio" name="q2.1" value="DIS"> DIS
+
+        <p>2. Which subject I took has the highest time spent studying to amount of useful content ratio? (In NUSH)</p>
+        <input type="radio" name='q2.2' value="Geography"> Geography
+        <input type="radio" name='q2.2' value="English"> English
+        <input type="radio" name='q2.2' value="Chinese"> Chinese
+        <input type="radio" name='q2.2' value="Art"> Art
+
+        <p>3. What class or time period in general provides the best vibe for gaming?</p>
+        <input type="radio" name='q2.3' value="Da Vinci"> Da Vinci
+        <input type="radio" name='q2.3' value="CCE"> CCE
+        <input type="radio" name='q2.3' value="Math"> Math
+        <input type="radio" name="q2.3" value="CCA"> CCA
+
+        <p>4. Best JJK OP imo</p>
+        <input type="radio" name='q2.4' value="S1 OP1"> S1 OP1
+        <input type="radio" name='q2.4' value="S1 OP2"> S1 OP2
+        <input type="radio" name='q2.4' value="S2 OP1"> S2 OP1
+        <input type="radio" name="q2.4" value="S2 OP2"> S2 OP2
+        <input type="radio" name="q2.4" value="S3 OP1"> S3 OP1
+
+        <button type="submit" id="submitpart2">Submit</button>
+        </div>
+
+        <div id="answer2"> </div>
+        <p id="chances2"></p>
+
+
+
+
+        <div class="hardtitle">
+        <h3>How well do you know me? (Hard)</h3>
+        <p>The previous quiz has to be completed before this can be revealed</p>
+        </div>
+        <div class="hardquestions">
+        <p>1. B____</p>
+        <input type=text name='q3.1' value="" id="q3.1">
+
+        <p>2. NS vocation?</p>
+        <input type="radio" name='q3.2' value="Infantry"> Infantry
+        <input type="radio" name='q3.2' value="Arty"> Arty
+        <input type="radio" name='q3.2' value="Signals"> Signals
+        <input type="radio" name='q3.2' value="Medic"> Medic
+        <input type="radio" name='q3.2' value="Recon"> Recon
+
+        <p>3. <img src="C:\Users\newuser\Documents\Web Dev\Test website\tokages.jpg" id="tokagequestion"> In this image, both creatures can be referred to as 'tokage'. However, the smaller green one includes a set of parantheses at the end of its name. What is inside the parantheses? (lowercase)</p>
+        <input type="text" name='q3.3' value="" id="q3.3"> 
+
+        <button type="submit" id="submitpart3">Submit</button>
+        </div>
+
+        <div id="answer3"> </div>
+        <p id="chances3"></p>
+
+
+
+
+        <div class="veryhardtitle">
+        <h3>How well do you know me? (Very Hard 0.00001% can solve)</h3>
+        <p>The previous quiz has to be completed before this can be revealed</p>
+        </div>
+        <div class="veryhardquestions">
+        <p>1. Top 2 favourite brawlers in Brawl Stars? (lowercase)</p>
+        <input type=text name='q4.1' value="" id="q4.1part1"> and <input type=text name='q4.1' value="" id="q4.1part2">
+
+        <p>2. Favourite subject in school?</p>
+        <select id="subject">
+            <option value="math">Math</option>
+            <option value="english">English</option>
+            <option value="chemhons">Chem Hons</option>
+            <option value="chem">Chem</option>
+            <option value="biohons">Bio Hons</option>
+            <option value="bio">Bio</option>
+            <option value="assembly">Assembly</option>
+            <option value="physics">Physics</option>
+            <option value="econs">Econs</option>
+            <option value="music">Music</option>
+            <option value="art">Art</option>
+            <option value="pe">PE</option>
+            <option value="cce">CCE</option>
+            <option value="dv">DV</option>
+            <option value="humanities">Humanities</option>
+            <option value="cs">CS</option>
+            <option value="mentoring">Mentoring</option>
+        </select>
+
+        <p>3. I am ___</p>
+        <input type="radio" name='q4.3' value="Washed"> Washed
+        <input type="radio" name='q4.3' value="Good"> Good
+        <input type="radio" name='q4.3' value="Cooked"> COOKED
+        <input type="radio" name='q4.3' value="Happy"> Happy
+        <input type="radio" name='q4.3' value="Successful"> Successful
+        <input type="radio" name='q4.3' value="Content"> Content
+        
+        <p>4. I was ___</p>
+        <input type="radio" name='q4.4' value="weather"> Under the weather
+        <input type="radio" name='q4.4' value="fiddle"> Played like a fiddle
+        <input type="radio" name='q4.4' value="cloud"> On cloud nine
+        <input type="radio" name='q4.4' value="loss"> At a loss
+        
+        <p>5. BEST clash royale card?</p>
+        <input type="radio" name='q4.5' value="mknight"> Mega knight (it's this)
+        <input type="radio" name='q4.5' value="knight"> Knight
+        <input type="radio" name='q4.5' value="spirit empress"> Spirit empress
+        <input type="radio" name='q4.5' value="notmknight"> Not mega knight
+
+        <button type="submit" id="submitpart4">Submit</button>
+        </div>
+
+        <div id="answer4"> </div>
+        <p id="chances4"></p>
+        
+
+
+
+        <div class="impossibletitle">
+        <h3>How well do you know me? (Impossible/only hackers can solve)</h3>
+        <p>The previous quiz has to be completed before this can be revealed</p>
+        </div>
+        <div class="impossiblequestions">
+        <p>1. B____ S__ backwards is: (no spaces, all lowercase)</p>
+        <input type=text name='q5.1' value="" id="part5q1">
+
+        <p>2. My downfall officially started in (DD/MM/YYYY). Add all the digits together then multiply by 37, then multiply the digits together.</p>
+        <input type=text name='q5.2' value="" id="part5q2">
+
+        <p>3. You get into the finals of the SSEF. Your team is very smart. You don't win anything. What is the objectively right way to feel?</p>
+        <input type="radio" name='q5.3' value="happy"> Happy
+        <input type="radio" name='q5.3' value="sad"> Sad
+        <input type="radio" name='q5.3' value="fine"> Fine
+
+        <p>4. Peak spot in NUSH?</p>
+        <input type="radio" name='q5.4' value="carpark"> Carpark
+        <input type="radio" name='q5.4' value="roof"> Roof
+        <input type="radio" name='q5.4' value="classroom"> Classroom
+        <input type="radio" name='q5.4' value="toilet"> Toilet
+
+        <p>5. Atomic number of my model element in malay</p>
+        <input type=text name='q5.5' value="" id="part5q5">
+        
+        <button type="submit" id="submitpart5">Submit</button>
+        </div>
+
+        <div id="answer5"> </div>
+        <p id="chances5"></p>
+
+        <p id="quizstats"></p>
+
+
+        <h3>Minigame</h3>
+        <button id="gamestart">Start Game</button>
+        <div id="gamecanvas" width="500" height="300">
+            <div id="box"></div>
+            <p id="timer"></p>
+        </div>
+        <p id="gamescore">Score: </p>
+        <p id='highscore'>High Score: </p>
+    </section>
+
+    <dialog id="dialog">
+        <p>GG you have no chances left!</p>
+        <button type="submit" onclick="closeDialog()">OK</button>
+    </dialog>
+
+    
+
+    <footer>
+        <p>Admin privileges</p>
+        <input type="text" id="password">
+        <button type="submit" id="submitpassword">Submit</button>
+        <input type="text" id="hacks" placeholder="enter hacks" value="">
+        <p>Version 1        Created using HTML, CSS, JS</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+.you {
+    display: block;
+    margin-bottom: 10px;
+}
+
+a {
+    display: block;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
+h3 {
+    margin-top: 40px;
+    
+}
+
+.easy, .mediumtitle, .mediumquestions, .hardquestions, .veryhardquestions, .impossiblequestions, .hardtitle, .veryhardtitle, .impossibletitle {
+    display: none;
+}
+
+#tokage {
+    max-width:10%; 
+    height:auto;
+}
+
+#tokagequestion {
+    width: 20%;
+}
+
+#hacks {
+    display: none;
+}
+
+#gamecanvas {
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
+  position: relative;
+  display: block;
+}
+
+#box {
+  width: 50px;
+  height: 50px;
+  background: red;
+  position: absolute;
+  cursor: pointer;
+}
+
+#timer {
+    position: absolute;
+}
+
+#gamestart {
+    display: block;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+footer {
+    background-color: darkgray;
+}
+
+dialog {
+    border-radius: 10px;
+}
+
+dialog::backdrop {
+    backdrop-filter: blur(2px);
+}
+
+#submitpart1, #submitpart2, #submitpart3, #submitpart4, #submitpart5 {
+    display: block;
+}
