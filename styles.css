@@ -75,6 +75,8 @@ body {
     font-family: 'Inter', sans-serif;
     width: 100vw;
     min-height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 
 footer {
@@ -93,3 +95,4 @@ dialog::backdrop {
     display: block;
 
 }
+
